@@ -31,7 +31,7 @@
 
 .side
 {
-	max-width: 120px;
+	width: 120px;
 	margin-left: 0px;
 	float: left;
 	background: #00FF00;
