@@ -13,6 +13,35 @@ html
 	background: orange;
 }
 
+.prev_next_container
+{
+	max-height: 100px;
+	max-width: 728px;
+	margin: auto;
+}
+.prev_link
+{
+	font-size: 18px;
+	text-align: center;
+	min-width: 364px;
+	max-height: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: orange;
+	float: left;
+}
+.next_link
+{
+	font-size: 18px;
+	text-align: center;
+	min-width: 364px;
+	max-height: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: orange;
+	float: right;
+}
+
 .header_link
 {
 	color: black;
@@ -25,6 +54,7 @@ html
 	max-width: 728px;
 	margin: auto;
 	display: flex;
+	clear: left;
 }
 
 .content
